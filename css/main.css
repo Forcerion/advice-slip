@@ -1,0 +1,66 @@
+body{
+    background-color: #202733;
+    color: #FFFFFF;
+    font-family: "Barlow", sans-serif;
+}
+
+main{
+    background-color: #313A48;
+    width: 344px;
+    min-height: 380px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+    padding-left: 24px;
+    padding-right: 24px;
+    z-index: -1;
+    position: relative;
+}
+
+h2{
+    text-align: center;
+    padding-top: 40px;
+    color: #53FFAA;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+p{
+    text-align: center;
+    padding-top: 24px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.pause {
+    background:none;
+    border: none;
+    display: flex;
+    justify-content: center; 
+    bottom: 60px;
+    z-index: 1;
+    position: absolute;
+}
+
+.reroll {
+    background: none;
+    border: none;
+    bottom: -32px;
+    left: 49%;
+    transform: translateX(-38%);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.reroll svg {
+    transition: .4s;
+}
+
+.reroll svg:hover {
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 6px #53FFAA;
+}
